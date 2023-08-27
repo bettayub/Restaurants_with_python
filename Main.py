@@ -24,7 +24,7 @@ for customer in [customer1, customer2]:
     for review in customer.reviews:
         print(f"- {review.get_rating()} stars for {review.get_restaurant().get_name()}")
 
-# Displaying all reviews
+#returning all the reviews
 print("All reviews:")
 for review in Review.all():
     print(f"- {review.get_customer().given_name} reviewed {review.get_restaurant().get_name()} with {review.get_rating()} stars")
