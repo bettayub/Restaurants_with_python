@@ -3,7 +3,6 @@ class Restaurant:
         self.name = name
         self.reviews = []
 
-
     def get_name(self):
         return self.name
 
@@ -12,4 +11,3 @@ class Restaurant:
             return 0
         total_ratings = sum(review.get_rating() for review in self.reviews)
         return total_ratings / len(self.reviews)
-
