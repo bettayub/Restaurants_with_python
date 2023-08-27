@@ -18,3 +18,11 @@ review3 = Review(customer1, restaurant2, 3)
 # Displaying average ratings
 print(f"Average rating for {restaurant1.get_name()}: {restaurant1.average_star_rating()}")
 print(f"Average rating for {restaurant2.get_name()}: {restaurant2.average_star_rating()}")
+
+
+# Displaying customer reviews
+for customer in [customer1, customer2]:
+    print(f"{customer.given_name} {customer.family_name} has reviewed:")
+    for review in customer.reviews:
+        print(f"- {review.get_rating()} stars for {review.get_restaurant().get_name()}")
+
