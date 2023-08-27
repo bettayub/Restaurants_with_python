@@ -14,3 +14,7 @@ review1 = Review(customer1, restaurant1, 4)
 review2 = Review(customer2, restaurant1, 5)
 review3 = Review(customer1, restaurant2, 3)
 
+
+# Displaying average ratings
+print(f"Average rating for {restaurant1.get_name()}: {restaurant1.average_star_rating()}")
+print(f"Average rating for {restaurant2.get_name()}: {restaurant2.average_star_rating()}")
