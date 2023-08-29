@@ -1,10 +1,11 @@
-Customers Reviews on Restaurants
-Author
-BETT AYUB
-Project Description:
+# Customers Reviews on Restaurants
+## Author
+### BETT AYUB
+## Project Description:
+
 This is a coding challenge where we're creating something similar to Yelp. There are three main things we're working with: Restaurants, Customers, and Reviews. The main goal is to connect these things together and make them work using different methods.
 
-Content Outline
+## Content Outline
 Introduction
 Getting Started
 Usage
@@ -21,7 +22,7 @@ Restaurant: Represents an eatery open to receiving reviews.
 Review: Represents a write-up penned by a customer regarding a restaurant.
 Each of these categories possesses distinct characteristics and functions meant to generate, oversee, and engage with examples.
 
-Technologies Used
+## Technologies Used
 * Python: Python is a popular high-level programming language known for its simplicity, readability, and versatility.
 Installation
 To get started with Toy Problem, follow these steps:
@@ -81,7 +82,7 @@ Dependencies
 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests
 
-License
+# License
 MIT License
 
 Copyright (c) 2023 BETT AYUB
